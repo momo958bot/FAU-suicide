@@ -1,7 +1,5 @@
 # FAU-suicide
 
-# FAU-suicide
-
 Run on the AutoDL platform with an RTX 4090, using PyTorch 2.7.0 / Python 3.12 (Ubuntu 22.04) / CUDA 12.8.
 
 ## Environment Setup
