@@ -1,0 +1,156 @@
+nohup: ignoring input
+Currently using device: cuda
+Loading and processing data...
+Sliding window construction completed, total training samples: 14613
+
+Starting 5-Fold GroupKFold cross-validation fine-tuning of DeBERTa...
+
+========== Fold 1 ==========
+
+Loading weights:   0%|                                                                                                      | 0/196 [00:00<?, ?it/s]
+Loading weights: 100%|#########################################################################################| 196/196 [00:00<00:00, 20303.87it/s][1mDebertaModel LOAD REPORT[0m from: microsoft/deberta-base
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+
+
+Epoch 1/10 | Train Loss: 1.1139 | Val Acc: 0.6976 | Val Mac-F1: 0.6376
+Epoch 2/10 | Train Loss: 0.7645 | Val Acc: 0.6907 | Val Mac-F1: 0.6622
+Epoch 3/10 | Train Loss: 0.6049 | Val Acc: 0.7280 | Val Mac-F1: 0.6863
+Epoch 4/10 | Train Loss: 0.4426 | Val Acc: 0.7184 | Val Mac-F1: 0.6776
+Epoch 5/10 | Train Loss: 0.3435 | Val Acc: 0.7208 | Val Mac-F1: 0.6629
+Epoch 6/10 | Train Loss: 0.2356 | Val Acc: 0.7290 | Val Mac-F1: 0.6683
+Epoch 7/10 | Train Loss: 0.1605 | Val Acc: 0.7208 | Val Mac-F1: 0.6618
+Epoch 8/10 | Train Loss: 0.0874 | Val Acc: 0.7212 | Val Mac-F1: 0.6670
+Epoch 9/10 | Train Loss: 0.0482 | Val Acc: 0.7171 | Val Mac-F1: 0.6630
+Epoch 10/10 | Train Loss: 0.0300 | Val Acc: 0.7198 | Val Mac-F1: 0.6642
+Fold 1 Best Result: Acc: 0.7280, Mac-F1: 0.6863, IN-F1: 0.7673, ID-F1: 0.7679, BR-F1: 0.5875, AT-F1: 0.6226
+
+========== Fold 2 ==========
+
+Loading weights:   0%|                                                                                                      | 0/196 [00:00<?, ?it/s]
+Loading weights: 100%|#########################################################################################| 196/196 [00:00<00:00, 18671.84it/s][1mDebertaModel LOAD REPORT[0m from: microsoft/deberta-base
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+
+
+Epoch 1/10 | Train Loss: 1.1447 | Val Acc: 0.6726 | Val Mac-F1: 0.5903
+Epoch 2/10 | Train Loss: 0.8042 | Val Acc: 0.7150 | Val Mac-F1: 0.6513
+Epoch 3/10 | Train Loss: 0.6153 | Val Acc: 0.7253 | Val Mac-F1: 0.6541
+Epoch 4/10 | Train Loss: 0.4759 | Val Acc: 0.6726 | Val Mac-F1: 0.6295
+Epoch 5/10 | Train Loss: 0.3429 | Val Acc: 0.7284 | Val Mac-F1: 0.6660
+Epoch 6/10 | Train Loss: 0.2437 | Val Acc: 0.7246 | Val Mac-F1: 0.6585
+Epoch 7/10 | Train Loss: 0.1553 | Val Acc: 0.7078 | Val Mac-F1: 0.6452
+Epoch 8/10 | Train Loss: 0.1042 | Val Acc: 0.7017 | Val Mac-F1: 0.6319
+Epoch 9/10 | Train Loss: 0.0655 | Val Acc: 0.7126 | Val Mac-F1: 0.6490
+Epoch 10/10 | Train Loss: 0.0325 | Val Acc: 0.7171 | Val Mac-F1: 0.6461
+Fold 2 Best Result: Acc: 0.7284, Mac-F1: 0.6660, IN-F1: 0.7463, ID-F1: 0.7826, BR-F1: 0.5909, AT-F1: 0.5444
+
+========== Fold 3 ==========
+
+Loading weights:   0%|                                                                                                      | 0/196 [00:00<?, ?it/s]
+Loading weights: 100%|#########################################################################################| 196/196 [00:00<00:00, 17895.11it/s][1mDebertaModel LOAD REPORT[0m from: microsoft/deberta-base
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+
+
+Epoch 1/10 | Train Loss: 1.1333 | Val Acc: 0.7328 | Val Mac-F1: 0.6583
+Epoch 2/10 | Train Loss: 0.7703 | Val Acc: 0.7550 | Val Mac-F1: 0.6845
+Epoch 3/10 | Train Loss: 0.5892 | Val Acc: 0.7602 | Val Mac-F1: 0.6923
+Epoch 4/10 | Train Loss: 0.4084 | Val Acc: 0.7513 | Val Mac-F1: 0.6801
+Epoch 5/10 | Train Loss: 0.2902 | Val Acc: 0.7397 | Val Mac-F1: 0.6679
+Epoch 6/10 | Train Loss: 0.2007 | Val Acc: 0.7342 | Val Mac-F1: 0.6697
+Epoch 7/10 | Train Loss: 0.1147 | Val Acc: 0.7325 | Val Mac-F1: 0.6626
+Epoch 8/10 | Train Loss: 0.0699 | Val Acc: 0.7345 | Val Mac-F1: 0.6593
+Epoch 9/10 | Train Loss: 0.0455 | Val Acc: 0.7355 | Val Mac-F1: 0.6693
+Epoch 10/10 | Train Loss: 0.0253 | Val Acc: 0.7393 | Val Mac-F1: 0.6706
+Fold 3 Best Result: Acc: 0.7602, Mac-F1: 0.6923, IN-F1: 0.7915, ID-F1: 0.7994, BR-F1: 0.5931, AT-F1: 0.5852
+
+========== Fold 4 ==========
+
+Loading weights:   0%|                                                                                                      | 0/196 [00:00<?, ?it/s]
+Loading weights: 100%|#########################################################################################| 196/196 [00:00<00:00, 19665.19it/s][1mDebertaModel LOAD REPORT[0m from: microsoft/deberta-base
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+
+
+Epoch 1/10 | Train Loss: 1.2422 | Val Acc: 0.6920 | Val Mac-F1: 0.5853
+Epoch 2/10 | Train Loss: 0.8392 | Val Acc: 0.6903 | Val Mac-F1: 0.6373
+Epoch 3/10 | Train Loss: 0.6468 | Val Acc: 0.7194 | Val Mac-F1: 0.6540
+Epoch 4/10 | Train Loss: 0.4929 | Val Acc: 0.7341 | Val Mac-F1: 0.6603
+Epoch 5/10 | Train Loss: 0.3749 | Val Acc: 0.7170 | Val Mac-F1: 0.6581
+Epoch 6/10 | Train Loss: 0.2601 | Val Acc: 0.7142 | Val Mac-F1: 0.6474
+Epoch 7/10 | Train Loss: 0.1787 | Val Acc: 0.7228 | Val Mac-F1: 0.6578
+Epoch 8/10 | Train Loss: 0.1070 | Val Acc: 0.7207 | Val Mac-F1: 0.6515
+Epoch 9/10 | Train Loss: 0.0784 | Val Acc: 0.7218 | Val Mac-F1: 0.6475
+Epoch 10/10 | Train Loss: 0.0515 | Val Acc: 0.7262 | Val Mac-F1: 0.6551
+Fold 4 Best Result: Acc: 0.7341, Mac-F1: 0.6603, IN-F1: 0.7659, ID-F1: 0.7845, BR-F1: 0.5476, AT-F1: 0.5433
+
+========== Fold 5 ==========
+
+Loading weights:   0%|                                                                                                      | 0/196 [00:00<?, ?it/s]
+Loading weights: 100%|#########################################################################################| 196/196 [00:00<00:00, 18980.07it/s][1mDebertaModel LOAD REPORT[0m from: microsoft/deberta-base
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+
+
+Epoch 1/10 | Train Loss: 1.1132 | Val Acc: 0.6869 | Val Mac-F1: 0.6480
+Epoch 2/10 | Train Loss: 0.7704 | Val Acc: 0.7444 | Val Mac-F1: 0.6922
+Epoch 3/10 | Train Loss: 0.5920 | Val Acc: 0.7529 | Val Mac-F1: 0.6996
+Epoch 4/10 | Train Loss: 0.4307 | Val Acc: 0.7259 | Val Mac-F1: 0.6787
+Epoch 5/10 | Train Loss: 0.2971 | Val Acc: 0.7334 | Val Mac-F1: 0.6677
+Epoch 6/10 | Train Loss: 0.2067 | Val Acc: 0.7324 | Val Mac-F1: 0.6824
+Epoch 7/10 | Train Loss: 0.1363 | Val Acc: 0.7293 | Val Mac-F1: 0.6729
+Epoch 8/10 | Train Loss: 0.0894 | Val Acc: 0.7313 | Val Mac-F1: 0.6796
+Epoch 9/10 | Train Loss: 0.0532 | Val Acc: 0.7320 | Val Mac-F1: 0.6770
+Epoch 10/10 | Train Loss: 0.0343 | Val Acc: 0.7361 | Val Mac-F1: 0.6788
+Fold 5 Best Result: Acc: 0.7529, Mac-F1: 0.6996, IN-F1: 0.8091, ID-F1: 0.7736, BR-F1: 0.6182, AT-F1: 0.5975
+
+==================================================
+5-Fold Cross-Validation Average Results:
+Acc. (%): 74.1
+Mac-F1 (%): 68.1
+IN-F1 (%): 77.6
+ID-F1 (%): 78.2
+BR-F1 (%): 58.7
+AT-F1 (%): 57.9
+==================================================
